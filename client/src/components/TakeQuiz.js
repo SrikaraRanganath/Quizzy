@@ -5,6 +5,7 @@ import  '../assets/styles/takequiz.css';
 const TakeQuiz = () => {
 
     const [quiz, setQuiz] = useState(null);
+    const [finish, setFinish] = useState(false);
     useEffect(() => {
         async function getquiz() {
             const {data} = await getQuiz(window.location.href.split('/')[4]);
@@ -36,7 +37,6 @@ const TakeQuiz = () => {
         setComp('questions');
         setTimer(true);
     }
-
     
     useEffect(() => {
 
@@ -113,7 +113,8 @@ const TakeQuiz = () => {
             score: score,
             rating: rating
         }
-        submitResult(window.location.href.split('/')[4], result)
+        submitResult(window.location.href.split('/')[4], result);
+        setFinish(true);
     }
 
     return (
@@ -184,7 +185,7 @@ const TakeQuiz = () => {
                         <span id='rating-4' className='rating-values'>4</span>
                         <span id='rating-5' className='rating-values'>5</span>
                     </div>    
-                    <center><button className='result-finish' onClick={onFinish}>finish</button></center>
+                    <center>{finish!==true ? <button id='result-finish' className='result-finish' onClick={onFinish} >finish</button> : null }</center>
                 </div>
             }
         </div>
