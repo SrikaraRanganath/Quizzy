@@ -11,6 +11,7 @@
 .main-text {
     color: #DADADA;
     width: 100%;
+    font-size: 24px;
 }
 .row {
     text-align: center;
@@ -19,10 +20,16 @@
     color: #DADADA;
 }
 .heading {
+    font-size: 18px;
+    color: #DADADA;
+}
+.values-2 {
     color: rgb(128, 128, 128);
+    font-size: 16px;
 }
 .values {
-    font-size: 14px;
+    color: rgb(128, 128, 128);
+    font-size: 16px;
     background-color: #151515;
     font-family: 'Poppins', sans-serif;
     display: block;
@@ -67,19 +74,20 @@ a {
     height: 2.5em;
     width: 85%;
 }
-.last-contact {
-    margin-left: 5%;
-}
+
 .send {
-    font-size: 17px;
+    font-size: 16px;
+    margin-left: -20px;
 }
 .quizzy {
     color: #DADADA;
     font-size: 19px;
 }
 .message-success {
-    margin-left: 30px;
-    display: block;
+    margin-left: 10px;
     font-size: 14px;
     color: rgb(196, 215, 170);
+}
+.links {
+    margin-left: 9%;
 }
