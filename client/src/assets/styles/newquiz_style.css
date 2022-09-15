@@ -1,0 +1,63 @@
+.create-new {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20%;
+}
+
+.form-label {
+    font-weight: 400;
+}
+
+input {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    width: 50%;
+    height: 30px;
+    border: #DADADA 1px solid;
+}
+
+.add {
+    margin-left: 1%;
+    background-color: inherit;
+    font-family: 'Poppins';
+    font-size: 18px;
+    border: #151515 solid 1px;
+    
+}
+.add:hover {
+    background-color: #DADADA;
+}
+
+.q {
+    margin-left: 1%;
+}
+
+.finish {
+    margin-top: 5%;
+    margin-left: 32%;
+    background-color: inherit;
+    font-family: 'Poppins';
+    font-size: 18px;
+    border: #151515 solid 1px;
+    padding: 0.5% 2%;
+}
+
+.finish:hover {
+    background-color: #DADADA;
+}
+
+.question-card {
+    border: #151515 solid 1px;
+}
+.quiz-start {
+    margin-left: 1.1%;
+    color: #151515;
+}
+.quiz-end {
+    margin-left: 1.6%;
+    color: #151515;
+}
+.question-time {
+    width: 36%;
+    color: #151515;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+button{
+    border: none;
+    background-color: #D9D9D9;
+    display: inline-block;
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logout:hover {
+    text-decoration: underline;
+}
+.site {
+    margin-top: 5px;
+}
+.site a{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.right {
+    margin-top: 2px;
+    float: right;
+    padding-left: 50px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.right:hover {
+    text-decoration: underline;
+}
+.right a {
+    font-weight: 500;
+    color: #151515;
+    font-size: 18px;
+}
+.last {
+    border: #151515 1px solid;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.last:hover {
+    background-color: #CACACA;
+}
+.user {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+

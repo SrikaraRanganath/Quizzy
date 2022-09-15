@@ -1,0 +1,38 @@
+.results {
+    font-family: 'Poppins';
+    width: 100%;
+}
+.result-heading {
+    display: inline-block;
+    margin-left: 43%;
+    font-size: 46px;
+}
+.result-table {
+    width: 70%;
+    height:auto;
+    margin-top: 2%;
+    margin-left: 14%;
+    font-size: 18px;
+    
+    border-collapse: collapse;
+    justify-content: center;
+}
+thead {
+    height: 50px;
+    background-color: #DADADA;
+    border-bottom: #151515 solid 2px;
+}
+tbody {
+    text-align: center;
+}
+tbody tr:hover {
+    background-color: #bababa;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+.result-emojis {
+    font-size: 24px;
+}

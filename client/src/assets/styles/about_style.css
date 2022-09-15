@@ -1,0 +1,18 @@
+.about {
+    font-family: 'Poppins', sans-serif;
+}
+.heading-about {
+    font-size: 36px;
+    color: #151515;
+    text-align: center;
+}
+.para {
+    text-align: justify;
+    margin-left: 6%;
+    font-size: 19px;
+}
+.smaller-about {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 450;
+}

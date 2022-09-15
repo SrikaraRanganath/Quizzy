@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F9E0" "\1F680" "\1F4BB" "\1F60E"; 
+    suffix: " ";
+}
+.repeating-counter-rule {
+    list-style-type: repeating-emoji;
+    font-size: 25px;
+}
+.home {
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    margin-left: 8%;
+}
+.info-1 {
+    font-size: 36px;
+    font-weight: lighter;
+}
+.info-2 {
+    font-size: 42px;
+    font-weight: 900;
+}
+.info-3 {
+    font-size: 26px;
+}
+.try {
+    width: 140px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 12px;
+    border: #151515 solid 2px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+ 
+.try a {
+    color: #151515;
+}
+
+.try:hover {
+    background-color: #CACACA;
+}
+
+.read {
+    width: 140px;
+    display: block;
+    margin-top: 15px;
+    background-color: #151515;
+    padding: 12px;
+    border: #151515 solid 2px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.read a {
+    color: white;
+}
+
+.left-content {
+    margin-left: 5%;
+    margin-top: -10%;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mockup {
+    width: 40%;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mockup-image {
+    height: auto;
+    max-width: 100%;
+}
